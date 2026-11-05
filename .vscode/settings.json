@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/7e44c27d-cddb-49b2-b959-c1dd3ece66d4/resourceGroups/appsvc_linux_eastus2/providers/Microsoft.Web/sites/bathenclosure",
+    "appService.deploySubpath": "."
+}

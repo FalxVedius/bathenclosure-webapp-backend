@@ -1,0 +1,26 @@
+{
+  "name": "bathenclosure-webapp-backend",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/FalxVedius/bathenclosure-webapp-backend#readme",
+  "bugs": {
+    "url": "https://github.com/FalxVedius/bathenclosure-webapp-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FalxVedius/bathenclosure-webapp-backend.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "env": "^0.0.2",
+    "express": "^5.3.0",
+    "openai": "^7.43.0"
+  }
+}
