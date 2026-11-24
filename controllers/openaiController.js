@@ -45,7 +45,7 @@ const generateAnswer = async (req, res) => {
   let base64Image1 = image;
   let imageIndex = req.body.imageIndex;
 
-  const response = "Default";
+  let response = "Default";
 
   //Adjust if it is a sliding door to remove Door Hinge
   if(req.body.system == "Sliding")
@@ -288,7 +288,7 @@ const generateAnswer = async (req, res) => {
 
     let imageBase64 = imageData[0];
     let ind = Math.floor(Math.random() * 10000);
-    fs.writeFileSync("public/FinishedExample" + ind.toString() + ".png", Buffer.from(imageBase64, "base64"))
+    //fs.writeFileSync("public/FinishedExample" + ind.toString() + ".png", Buffer.from(imageBase64, "base64"))
     
     res.json({
       imgPath: imageBase64
